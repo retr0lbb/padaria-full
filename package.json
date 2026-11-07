@@ -1,8 +1,13 @@
 {
-  "dependencies": {
+  "private": true,
+  "workspaces": [
+    "apps/*"
+  ],
+  "scripts": {
+    "dev": "turbo run dev"
+  },
+  "devDependencies": {
     "turbo": "^2.11.10"
   },
-  "workspaces": [
-    "/apps/*"
-  ]
+  "packageManager": "npm@11.19.0"
 }
