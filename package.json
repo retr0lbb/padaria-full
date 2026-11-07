@@ -1,8 +1,9 @@
 {
-  "dependencies": {
-    "turbo": "^2.11.10"
-  },
+  "private": true,
   "workspaces": [
-    "/apps/*"
-  ]
+    "apps/*"
+  ],
+  "devDependencies": {
+    "turbo": "^2.11.10"
+  }
 }
